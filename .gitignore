@@ -1,3 +1,7 @@
 #Ignore Folders
 /GivenImages
 /OutputImages
+
+#Ignore Files
+README.md.un~
+README.md~

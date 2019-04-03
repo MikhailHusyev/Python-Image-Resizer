@@ -6,7 +6,7 @@ This python script allows iteration through an image folder to decrement or incr
 Initially images can be placed in a folder named ```GivenImages```.  The output will initally be returned to ```OutputImages```.
 
 ## Image Percentage Adjustment
-To make an adjustment you can change the decimal value in the
+To make an adjustment you can change the decimal value in the ```image_demensions``` function
 
 ### Used Plugins
 	-Pillow
