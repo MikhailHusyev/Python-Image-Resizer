@@ -28,7 +28,7 @@ def create_output_folder():
     '''
     os.mkdir(output_image_folder())
 
-def image_demensions(height, width):
+def image_dimensions(height, width):
     return [round(height*.15),round(width*.15)]
 
 
@@ -52,7 +52,7 @@ def main():
             with open(file_name_input,'r+b') as f:
                 with Image.open(f) as image:
                     #Adjustes image and saves the image
-                    updated_image = resizeimage.resize_thumbnail(image,image_demensions(image.height, image.width), Image.ANTIALIAS)
+                    updated_image = resizeimage.resize_thumbnail(image, image_dimensions(image.height, image.width), Image.ANTIALIAS)
                     updated_image.save(file_name_output, image.format)
 
 main()
