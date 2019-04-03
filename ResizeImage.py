@@ -54,5 +54,6 @@ def main():
                     #Adjustes image and saves the image
                     updated_image = resizeimage.resize_thumbnail(image, image_dimensions(image.height, image.width), Image.ANTIALIAS)
                     updated_image.save(file_name_output, image.format)
-
+    
+    print("Images have been resized");
 main()
